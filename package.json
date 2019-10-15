@@ -1,0 +1,16 @@
+{
+  "name": "@snek/wvm",
+  "version": "1.0.0",
+  "description": "A map where the values are weak.",
+  "main": "index.mjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devsnek/weak-value-map.git"
+  },
+  "author": "devsnek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devsnek/weak-value-map/issues"
+  },
+  "homepage": "https://github.com/devsnek/weak-value-map#readme"
+}
