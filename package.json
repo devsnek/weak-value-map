@@ -12,5 +12,6 @@
   "bugs": {
     "url": "https://github.com/devsnek/weak-value-map/issues"
   },
-  "homepage": "https://github.com/devsnek/weak-value-map#readme"
+  "homepage": "https://github.com/devsnek/weak-value-map#readme",
+  "keywords": ["weakvaluemap", "weakmap", "weak value map", "weak map"]
 }
