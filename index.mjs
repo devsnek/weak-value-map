@@ -3,13 +3,11 @@ const VALUES = 2;
 const KEYS_VALUES = 3;
 
 export default class WeakValueMap {
-  #map = new Map();
-  #group = new FinalizationGroup((iterator) => {
-    for (const key of iterator) {
-      this.#map.delete(key);
-    }
-  });
   #eager;
+  #map = new Map();
+  #group = new FinalizationRegistry((key) => {
+    this.#map.delete(key);
+  });
 
   constructor(iterable = undefined, { eager = true } = {}) {
     this.#eager = eager;
